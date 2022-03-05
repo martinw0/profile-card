@@ -13,6 +13,9 @@ body {
     padding: 0 15px;
     flex-flow: column;
     justify-content: space-between;
+    background-image: url(./images/bg-pattern-top.svg),url(./images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
 }
 .nothing {
     visibility: hidden;
@@ -25,18 +28,33 @@ main {
     align-items: center;
     flex-flow: column;
     max-width: 700px;
-    background-color: white;
+    background: no-repeat url(./images/bg-pattern-card.svg), white;
+    border-radius: 10px;
+}
+.name * {
+    display: inline-block;
 }
 h1 {
     font-size: 18px;
 }
-image {
-    border: 3px;
+h2 {
+    font-size: 18px;
+}
+h3 {
+    font-size: 10px;
+}
+img {
+    border-radius: 100%;
+    border: 5px solid white
+}
+hr {
+    width: 100%;
 }
 .stats {
     display: flex;
     flex-flow: row;
     justify-content: space-around;
+    width: 100%;
 }
 .attribution {
     font-size: 11px;
