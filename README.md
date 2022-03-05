@@ -50,9 +50,14 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Useful resources
 
-
+- [Advice for mobile first wworkflow](https://css-tricks.com/forums/topic/any-advice-on-mobile-first-workflow/)
+- [Mobile first workflow](https://www.donnywals.com/mobile-first-is-a-great-workflow/)
 
 ## Author
 
 - Frontend Mentor - [@martinw0](https://www.frontendmentor.io/profile/martinw0)
 - Twitter - [@leWalletM](https://www.twitter.com/leWalletM)
+
+## Questions  
+
+- How to respect <h> elements semantic ? It is only the content of sections ? For example: Is it correct to put a profile name inside ?
