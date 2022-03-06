@@ -14,6 +14,7 @@ body {
     padding: 0 15px;
     flex-flow: column;
     justify-content: space-between;
+    align-items: center;
     background-image: url(./images/bg-pattern-top.svg),url(./images/bg-pattern-bottom.svg);
     background-repeat: no-repeat;
     background-position: -780px -600px, 187px 300px;
@@ -28,7 +29,7 @@ main {
     justify-content: space-between;
     align-items: center;
     flex-flow: column;
-    max-width: 700px;
+    width: 350px;
     background: no-repeat url(./images/bg-pattern-card.svg), white;
     border-radius: 10px;
 }
