@@ -82,3 +82,8 @@ hr {
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
+@media screen and (min-width:1440px) {
+    body {
+        background-position: -313px -459px, 629px 453px;
+    }
+}
